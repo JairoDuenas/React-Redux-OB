@@ -27,7 +27,7 @@ export const addTodo = (text) => {
  * @param {number} id 
  * @returns action TOGGLE_TODO
  */
-export const toggeleTodo = (id) => {
+export const toggleTodo = (id) => {
   return {
     type: TOGGLE_TODO,
     payload: {
